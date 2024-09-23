@@ -1,0 +1,104 @@
+
+* body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+main{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 33% 1fr;
+    grid-gap: 1rem;
+    min-height: 100vh
+}
+.left{
+    background-color: white;
+}
+
+.left-image {
+    position: relative;
+    width: 100%;
+}
+.left-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 0%;
+    border: 15 solid green;
+}
+
+.personal, .skills, .languages{
+    margin: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem; 
+    background-color: white;
+    border-radius: 6px;
+    line-height: 2;
+}
+
+
+.left-image h2 {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    
+}
+
+.right {
+    background-color: white; 
+    padding: 1rem;
+    
+}
+
+
+.school{
+    background-color: green;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 4px;
+}
+.experience, .education{
+    line-height: 2;
+    background-color: white;
+    padding: 1rem;
+}
+
+ .experience ul{
+    margin: 1rem 0;
+    line-height: 2rem;
+ }
+.Work{
+    font-size: larger;
+}
+
+.uni{
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+    padding: .4rem;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border: 2px solid green;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px blue; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.button{
+    border: blue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    border: 2px solid green;
+    }
+button:hover{
+    background-color: blue;
+    color:white;
+}
