@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume Builder</title>
+</head>
+<body>
+    <div class="main">
+        <div id="create">
+        <h1>Resume Builder</h1>
+        <form id="form">
+            <fieldset class="fieldset">
+                <legend>Personal Information</legend>
+                <label class="label" for="name" >Name:</label>
+                <input type="text" id="name" placeholder="write your name here" required >
+                <br> <br>
+                <label class="label" for = "email" >Email:</label>
+                <input type = "text" id="email" placeholder="write your email here" required >
+
+                <br> <br>
+                <label class="label" for="cell" >Contact:</label>
+                <input type="tel" id="cell" placeholder="write your contact number here" required >
+
+            </fieldset>
+
+            <fieldset class="fieldset">
+                <legend >Education</legend>
+                <label class="label" for="education"></label>
+                <textarea id="education" placeholder="write your education" rows="4" required></textarea>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend>Experience</legend>
+                <label class="label" for="experience"></label>
+                <textarea id="experience" placeholder="write your experience" rows="4" required></textarea>
+            </fieldset>
+
+            <fieldset class="fieldset">
+                <legend>Skills</legend>
+                <label class="label" for="skills"></label>
+                <textarea id="skills" placeholder="write your skills" rows="4" required></textarea>
+            </fieldset>
+            
+<br>
+            <button type="submit"><b>Generate Resume</b></button>
+
+        </form>
+    </div>
+
+<!-- resume display -->
+            <div id="display">Your Resume</div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

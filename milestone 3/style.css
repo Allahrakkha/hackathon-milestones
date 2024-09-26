@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    
+  }
+  
+  form {
+    width: 80%;
+    padding: 10px;
+    margin: 2rem;
+  
+  }
+ 
+  h1 {
+    color: teal;
+    text-align:start;
+    padding-left: 2rem;
+    size: 10rem;
+      }
+    h2, h3{
+      color:blue;
+      border: black;
+      border-radius: 2cm;
+      box-shadow: 2rem;
+    }
+  label, input, textarea {
+    display: block;
+    margin-bottom: 2px;
+    width: 100%;
+    
+  }
+  textarea {
+    height: 50px;
+  }
+  fieldset{
+    width: 50%;
+  }
+
+  .main {
+    display: grid;
+    grid-column: 2;
+    gap: 2rem;
+    color: blueviolet;
+    background-color: gainsboro
+  }
+
+  .create{
+    display: grid;
+    
+  }
+
+  name,email,cell, education, experience, skills{
+    color:blue;
+    size: 2px;
+    padding-left: 2rem;
+  }
